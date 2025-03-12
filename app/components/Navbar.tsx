@@ -16,7 +16,7 @@ export default function Navbar() {
         {/* Left Side - Logo & Title */}
         <div className="flex items-center space-x-2">
           <YouTubeIcon fontSize="large" className="text-red-500" />
-          <h1 className="text-xl font-bold">YouTube Downloader</h1>
+          <Link href="/" className="text-xl font-bold">YouTube Downloader</Link>
         </div>
 
         {/* Right Side - Downloader Nav Item */}

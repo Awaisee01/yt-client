@@ -9,7 +9,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-black mt-20   text-gray-400 py-20  text-center">
+    <footer className="bg-black    text-gray-400 py-20  text-center">
       {/* Website Name */}
       <h2 className="text-2xl font-semibold text-white mb-6">YouTube Downloader</h2>
 
