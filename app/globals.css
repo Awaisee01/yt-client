@@ -46,7 +46,7 @@ body {
   background-color: rgba(0, 0, 0, 0.908); /* Black overlay with 50% opacity */
 }
 
-button:hover{
+/* button:hover{  
   background-color: #ffffffbe;
   transition: 0.8s;
-}
+} */

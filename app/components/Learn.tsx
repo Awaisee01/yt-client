@@ -31,7 +31,7 @@ const cardData = [
 
 const Learn: React.FC = () => {
   return (
-    <div className="bg-[#0a0a0a] mt-10 min-h-screen text-white flex flex-col items-center justify-center py-10 px-4">
+    <div className="bg-black  min-h-screen text-white flex flex-col items-center justify-center py-10 px-4">
       <h1 className="text-3xl md:text-4xl font-bold mb-10 text-gray-200 text-center">
         How to Download YouTube Videos
       </h1>

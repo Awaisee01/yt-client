@@ -1,6 +1,7 @@
 import React from 'react'
 import Downloader from './components/Downloader'
 import Learn from './components/Learn'
+import Faqs from './components/Faqs'
 
 const page = () => {
   return (
@@ -8,6 +9,7 @@ const page = () => {
     
       <Downloader/>
       <Learn/>
+      <Faqs/>
     </div>
   )
 }
