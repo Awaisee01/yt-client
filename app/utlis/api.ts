@@ -6,7 +6,7 @@
 import axios from "axios";
 const API_URL = "https://web-production-19ddf.up.railway.app/";
 
-// const API_URL = "http://127.0.0.1:8000"; // Adjust if running on Railway
+// const API_URL = "http://127.0.0.1:8000"; // Adjust if running on Rai/lway
 
 export const downloadMedia = async (url: string, format: "video" | "audio") => {
   try {
@@ -32,3 +32,8 @@ export const downloadMedia = async (url: string, format: "video" | "audio") => {
     return { success: false, error: "Failed to download media" };
   }
 };
+
+
+
+
+

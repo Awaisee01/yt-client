@@ -32,6 +32,10 @@ const Downloader: React.FC = () => {
       setUrl("");
 
       // Refresh page after 3 seconds
+      setTimeout(() => {
+        location.reload();
+    }, 3000); // 3000ms = 3 seconds
+    
      
     } catch (err) {
       const errorMessage = err instanceof Error ? err.message : "Unknown error";
